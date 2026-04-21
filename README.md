@@ -2,7 +2,7 @@
 
 Voice POS es un sistema de Punto de Venta (Point of Sale) innovador controlado por voz e impulsado por Inteligencia Artificial. Diseñado para ofrecer una experiencia de usuario rápida y manos libres, permite a los cajeros y vendedores realizar cobros, agregar productos al carrito y consultar inventario simplemente hablando.
 
-## 🚀 Características Principales
+## Características Principales
 
 *   **Ventas Rápidas por Voz:** Agrega productos individuales o múltiples al carrito con comandos naturales (ej. *"Véndeme dos cocas y unas galletas"*).
 *   **Inteligencia Artificial Integrada:** Utiliza modelos LLM (vía Groq) para extraer intenciones, cantidades y entidades desde el lenguaje natural.
@@ -11,7 +11,7 @@ Voice POS es un sistema de Punto de Venta (Point of Sale) innovador controlado p
 *   **Consultas de Inventario:** Pregunta por precios y existencias al instante (ej. *"¿Cuánto cuesta el jabón Zote?"*).
 *   **Context Shifting:** El motor comprende si interrumpes una venta para hacer una consulta y te permite retomar el flujo sin perder datos.
 
-## 🏗️ Arquitectura del Sistema
+## Arquitectura del Sistema
 
 El proyecto está dividido en dos partes principales:
 
@@ -61,7 +61,6 @@ GROQ_API_KEY=tu_groq_api_key
 Inicia el servidor Backend:
 ```bash
 python main.py
-# El backend correrá en http://localhost:8000
 ```
 
 ### 3. Configurar el Frontend
@@ -70,11 +69,8 @@ Abre una nueva terminal en la raíz del proyecto.
 cd frontend
 npm install
 npm run dev
-# El frontend correrá en http://localhost:5173
 ```
 
 ## 🧪 Testing y Casos de Uso
 El sistema soporta flujos complejos. Para ver una lista detallada de todos los escenarios de prueba soportados (ventas múltiples, cobros con cambio, manejo de errores y ambigüedades), revisa la documentación interna del proyecto o el archivo de pruebas generado.
 
----
-*Desarrollado como proyecto personal.*
