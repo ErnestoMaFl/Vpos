@@ -1,0 +1,12 @@
+*.txt
+*.log
+.agent/rules/comandos-nuevos.md
+.agent/rules/supabasemcp.md
+*.pyc
+backend/tests/
+frontend/README.md
+backend/.env
+backend/*.json
+backend/reproduce_ambiguity.py
+.vscode/
+!backend/requirements.txt
